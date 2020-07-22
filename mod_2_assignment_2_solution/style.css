@@ -1,0 +1,145 @@
+*{
+	box-sizing:border-box;
+}
+h1{
+	text-align:center;
+	margin:5% auto;
+	font-family:arial,consolas;
+	text-decoration:underline
+	
+}
+#h21{
+background-color:pink;
+}
+#h22{
+background-color:red;	
+}
+#h23{
+background-color:#B6F7E5;	
+}
+
+@media (min-width:992px) {
+	.row{
+		width:100%;
+		
+	}
+	.col-lg-4{
+		box-sizing:border-box;
+		float:left;
+		margin-left:2%;
+		margin-right:2%;
+		margin-top:5%;
+		border:1px solid black;
+		width:29.33%;
+		height:50%;
+		overflow:auto;
+		background-color:#680AC6;
+		
+	}
+	h2{
+		float:right;
+		border:1px solid black;
+		margin-top:0px;
+		margin-right:0px;
+		font-family:arial,;
+		
+	}
+	.para{
+		margin-top:10%;
+		font-family:arial;
+		margin-left:4%;
+		margin-right:4%;
+		margin-bottom:2%;
+		color:#FBA8FF;
+	}
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.col-smm-6,.col-smm-12{
+		float:left;
+		border:1px solid black;
+	}
+	.row{
+		width:100%;
+	}
+	.col-smm-6{
+		box-sizing:border-box;
+		
+		margin-left:2%;
+		margin-right:2%;
+		margin-top:5%;
+		width:46%;
+		height:50%;
+		overflow:auto;
+		background-color:#680AC6;
+		
+	}
+	h2{
+		float:right;
+		border:1px solid black;
+		margin-top:0px;
+		margin-right:0px;
+		font-family:arial, consolas;
+		
+	}
+	.para{
+		margin-top:10%;
+		font-family:arial,consolas;
+		margin-left:4%;
+		margin-right:4%;
+		margin-bottom:2%;
+		color:#FBA8FF;
+	}
+	.col-smm-12{
+		box-sizing:border-box;
+		
+		margin-left:2%;
+		margin-right:2%;
+		margin-top:5%;
+		width:auto;
+		height:50%;
+		overflow:auto;
+		background-color:#680AC6;
+		
+	}
+}
+
+
+
+@media (max-width:767px) {
+	.row{
+		width:100%;
+		
+	}
+	.row>div{
+		box-sizing:border-box;
+		float:left;
+		margin-left:2%;
+		margin-right:2%;
+		margin-top:5%;
+		border:1px solid black;
+		width:96%;
+		height:50%;
+		overflow:auto;
+		background-color:#680AC6;
+		
+	}
+	h2{
+		float:right;
+		border:1px solid black;
+		margin-top:0px;
+		margin-right:0px;
+		font-family:arial, consolas;
+		
+	}
+	.para{
+		margin-top:10%;
+		font-family:arial,consolas;
+		margin-left:4%;
+		margin-right:4%;
+		margin-bottom:2%;
+		color:#FBA8FF;
+	}
+}
+
