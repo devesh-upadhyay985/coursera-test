@@ -25,6 +25,7 @@
 
 .container >#colour{
 	background-color:#C32B2B;
+        border:1px solid black;
 }
 
 h3{
